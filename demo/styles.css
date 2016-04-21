@@ -1,0 +1,203 @@
+/********** MAIN **********/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Arial", "Helvetica", sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/********** FONTS **********/
+html {
+	font-size: 14px;
+}
+
+h1{
+	font-size:3rem;
+	font-weight: bold;
+}
+h2{
+	font-size:2rem
+}
+
+
+a{
+	font-size: 18px;
+	cursor:pointer;
+}
+
+a:hover{
+	
+}
+
+/********************************************************************/
+/****************************** GENERAL *****************************/
+/********************************************************************/
+
+.wrapper {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 1560px;
+}
+
+/********** CONTENT **********/
+
+.container {
+	width:38%;
+	max-width: 600px;
+	height:auto;
+	margin:5%;
+	margin-top:3%;
+	margin-bottom: 10%;
+	float:left;
+	text-align: center;
+}
+
+/********** SLIDERS **********/
+.slide{
+	height:600px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.slide img{
+	margin:0 auto;
+	width:auto;
+	height:auto;
+	max-width:100%;
+	max-height: 600px;
+	height:auto;
+	display: inline;
+}
+
+
+
+/******SLIDE CONTROLS*******/
+.slider .slider_navdot{
+	visibility: hidden;
+}
+
+
+/**POSITION OF RIGHT AND LEFT BUTTONS**/
+.slider .slide_left,
+.slider .slide_right{
+	display:inline-block;
+	margin-left:3%;
+	margin-right: 3%;
+	font-family: 'Archivo Narrow' sans-serif;
+	font-weight: 400;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+
+/** INVERT SCROLL **/
+
+.panelCon{
+    position: fixed;
+    bottom: 30%;
+    left:0;
+    width: 100%;
+    height:auto;
+    z-index:100;
+    pointer-events:none;
+}
+.panel {
+    width: 100%;
+    height:auto;
+}
+.panel h1 {
+    width: 250px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom:30%; /** adjust this margin to accomodate fitting text on different screen widths**/
+    text-align: center;
+    top: 10%;
+    font-size: 2rem;
+    font-family: 'Archivo Narrow' sans-serif;
+    font-weight: 700;
+    font-style: italic;
+	opacity:.5;
+	color:#e13900;
+    
+}
+
+.red{
+	
+
+}
+
+
+
+
+
+/**BUILD**/
+
+.bon{
+	z-index: 1000;
+	margin:0 auto;
+}
+
+.build{
+    position: fixed;
+    bottom:0;
+    width: 5%;
+    height:auto;
+    z-index:-100;
+    pointer-events:none;
+}
+
+.bzone {
+    width: 100%;
+    height:auto;
+    opacity: .6;
+}
+
+.bzone img{	
+	max-width: 100px;
+}
+
+
+
+
+
+
+
