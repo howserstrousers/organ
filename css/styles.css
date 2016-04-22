@@ -68,18 +68,38 @@ a:hover{
 	
 }
 
-/********************************************************************/
-/****************************** GENERAL *****************************/
-/********************************************************************/
+/********** CONTENT **********/
 
+/***BUTTON STYLES**/
+p {
+
+	width:auto;
+	color: rgba(43, 59, 43, .7); /*******GREEEEENNN!!!***/
+	background-color: rgba(43, 59, 43, .2); /*******GREEEEENNN!!!***/
+	margin-top: .5%;
+	padding:.2%;
+	font-family: 'Archivo Narrow' sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+p:hover{
+	font-style: italic;
+	-webkit-box-shadow: -2px 2px 3px 0px rgba(0,0,0 ,0.3);
+	-moz-box-shadow: -2px 2px 3px 0px rgba(0,0,0 ,0.3);
+	box-shadow: -2px 2px 3px 0px rgba(0,0,0 ,0.3);
+}
+
+/**holding sliders**/
 .wrapper {
 	max-width: 1560px;
 	margin-left:2%;
 	padding:0 auto;
 }
 
-/********** CONTENT **********/
-
+/**slider containers**/
 .container {
 	width:35%;
 	height: 700px;
@@ -150,24 +170,7 @@ a:hover{
 .howto{
 	position:fixed;
 	width:auto;
-	color: rgba(43, 59, 43, .7); /*******GREEEEENNN!!!***/
-	background-color: rgba(43, 59, 43, .2); /*******GREEEEENNN!!!***/
 	margin-left:48%;
-	margin-top: .5%;
-	padding:.2%;
-	font-family: 'Archivo Narrow' sans-serif;
-    font-weight: 700;
-    text-align: center;
-    font-size: .8rem;
-    cursor: pointer;
-
-}
-
-.howto:hover{
-	font-style: italic;
-	-webkit-box-shadow: -2px 2px 3px 0px rgba(255,57,0 ,0.3);
-	-moz-box-shadow: -2px 2px 3px 0px rgba(255,57,0 ,0.3);
-	box-shadow: -2px 2px 3px 0px rgba(255,57,0 ,0.3);
 }
 
 
@@ -203,32 +206,10 @@ a:hover{
 
 /**BUILD**/
 
-
 .bon{
 	position:fixed;
-	/**border:.5px dashed rgba(0,0,0, .4);**/
-	color: rgba(43, 59, 43, .7); /*******GREEEEENNN!!!***/
-	background-color: rgba(43, 59, 43, .2);
 	margin-left:.5%;
-	margin-top: .5%;
-	padding: .2%;
-	font-family: 'Archivo Narrow' sans-serif;
-    font-weight: 700;
-    text-align: center;
-    font-size: .8rem;
-    cursor: pointer;
 }
-
-.bon:hover{
-	font-style: italic;
-	-webkit-box-shadow: -2px 2px 3px 0px rgba(255,57,0 ,0.2);
-	-moz-box-shadow: -2px 2px 3px 0px rgba(255,57,0 ,0.2);
-	box-shadow: -2px 2px 3px 0px rgba(255,57,0 ,0.2);
-}
-
-
-
-
 
 .build{
     position: fixed;
