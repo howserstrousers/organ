@@ -4,6 +4,16 @@ $(document).ready(function(){
 	$(".bon").click(function(){
         $(".build").toggle();
     });
+
+//gif togggle
+	$(".peopleg").click(function(){
+        $(".peopleg1").toggle();
+    });
+
+//howto toggle
+$(".howto").click(function(){
+        $(".panelCon").toggle();
+    });
 	
 	
 /********** SLIDER STUFF **********/
@@ -55,7 +65,7 @@ $(window).resize(function(){
 $("body").height($(".build").length);
 
 $(window).on('scroll',function(){
-    $(".build").css('bottom',$(window).scrollTop()*-3.2); //# that controls speed of inverse scroll
+    $(".build").css('bottom',$(window).scrollTop()*-2); //# that controls speed of inverse scroll
 });
 
 
