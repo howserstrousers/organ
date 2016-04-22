@@ -74,7 +74,7 @@ a:hover{
 p {
 
 	width:auto;
-	color: rgba(43, 59, 43, .7); /*******GREEEEENNN!!!***/
+	color: rgba(43, 59, 43, .8); /*******GREEEEENNN!!!***/
 	background-color: rgba(43, 59, 43, .2); /*******GREEEEENNN!!!***/
 	margin-top: .5%;
 	padding:.2%;
@@ -226,7 +226,7 @@ p:hover{
 .bzone {
     width: 100%;
     height:auto;
-    opacity: .6;
+
 }
 
 .bzone img{	
