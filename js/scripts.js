@@ -1,10 +1,12 @@
-
-
-
 $(document).ready(function(){
+
+//build toggle
+	$(".bon").click(function(){
+        $(".build").toggle();
+    });
 	
 	
-	/********** SLIDER 5 - SLIDE - HORIZONTAL - LOOP - SEAMLESS **********/
+/********** SLIDER STUFF **********/
 	$('#slider5 .slider').prrpleSlider({
 		windowsize:				true,
 		transition: 			'slide',
@@ -49,21 +51,13 @@ $(window).resize(function(){
     $(".panelCon").css('bottom',$(window).scrollTop()*-1); //# that controls speed of inverse scroll
 });
 
-//BUILD SCROLL
-
-$(".bon").click(function(){
-	$(".build").toggle();
-});
-
-$("button").click(function(){
-    $("img").toggle();
-});
-
+//BUILD INVERSE SCROLL
 $("body").height($(".build").length);
 
 $(window).on('scroll',function(){
     $(".build").css('bottom',$(window).scrollTop()*-3.2); //# that controls speed of inverse scroll
 });
+
 
 //H1 COLOR
 
