@@ -70,7 +70,7 @@ $(window).resize(function(){
 //});
 	
 	$(window).on('scroll',function(){
-    $(".panelCon").css('bottom',$(window).scrollTop()*-.8); //# that controls speed of inverse scroll
+    $(".panelCon").css('bottom',$(window).scrollTop()*-1.2); //# that controls speed of inverse scroll
 });
 
 //BUILD INVERSE SCROLL
