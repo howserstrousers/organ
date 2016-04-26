@@ -18,6 +18,10 @@ $(document).ready(function(){
     	$(".fg1").toggle();
     });
 
+    $(".spg").click(function(){
+    	$(".s1").toggle();
+    });
+
 //howto toggle
 $(".howto").click(function(){
         $(".panelCon").toggle();
@@ -96,7 +100,7 @@ $(function(){
 //backgrounds
 var winHeight = $(window).innerHeight();
 $(document).ready(function () {
-    $(".back").height(winHeight);
+    $(".wrapper").height(winHeight);
     $(".back").height(winHeight*$(".wrapper").length);
 });
 
