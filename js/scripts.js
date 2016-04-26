@@ -97,12 +97,13 @@ $(function(){
 var winHeight = $(window).innerHeight();
 $(document).ready(function () {
     $(".back").height(winHeight);
-    $("body").height(winHeight*$(".back").length);
+    $(".back").height(winHeight*$(".wrapper").length);
 });
 
 window.addEventListener('resize', function (event) {
     $(".back").height($(window).innerHeight());
 });
+
 $(window).on('scroll',function(){
     $(".bg").css('bottom',$(window).scrollTop()*-1);
 });
