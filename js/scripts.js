@@ -14,6 +14,10 @@ $(document).ready(function(){
     	$(".gd1").toggle();
     });
 
+    $(".fg").click(function(){
+    	$(".fg1").toggle();
+    });
+
 //howto toggle
 $(".howto").click(function(){
         $(".panelCon").toggle();

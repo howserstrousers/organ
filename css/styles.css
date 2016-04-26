@@ -93,11 +93,19 @@ p:hover{
 }
 
 /**holding sliders**/
-.wrapper {
+
+.wrapper{
+	
+}
+
+.wrapper2 {
 	
 	margin-left:2%;
 	padding:0 auto;
 }
+
+
+
 
 /**slider containers**/
 .container {
@@ -171,7 +179,7 @@ p:hover{
 }
 
 .peopleg1 img{
-	height:180px;
+	height:200px;
 }
 
 .gdg{
@@ -186,8 +194,25 @@ p:hover{
 }
 
 .gd1 img{
-	height:180px;
+	height:200px;
 }
+
+.fg{
+	cursor: pointer;
+	text-decoration: underline;
+	background-color: white;
+}
+
+.fg1{
+	margin-top:3%;
+	display:none;
+}
+
+.fg1 img{
+	height:200px;
+}
+
+
 
 
 
@@ -207,7 +232,7 @@ p:hover{
     left:0;
     width: 100%;
     height:auto;
-    z-index:100;
+    z-index:-100;
     pointer-events:none;
 }
 .panel {
@@ -267,6 +292,7 @@ p:hover{
     bottom: 0;
     left:0;
     width: 100%;
+    z-index: -1000;
 }
 .back {
     width: 100%;
