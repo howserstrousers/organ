@@ -172,20 +172,6 @@ p:hover{
 
 
 /** buttons/gif **/
-.peopleg{
-	cursor: pointer;
-	text-decoration: underline;
-	background-color: white;
-}
-
-.peopleg1{
-	margin-top:3%;
-	display:none;
-}
-
-.peopleg1 img{
-	height:200px;
-}
 
 .gdg{
 	cursor: pointer;
@@ -211,10 +197,14 @@ p:hover{
 .fg1{
 	margin-top:3%;
 	display:none;
+	width:auto;
+	height:220px;
+
 }
 
 .fg1 img{
 	height:200px;
+	
 }
 
 .spg{
@@ -232,9 +222,52 @@ p:hover{
 	height:200px;
 }
 
+.geogif{
+	cursor: pointer;
+	text-decoration: underline;
+	background-color: white;
+}
 
+.geo1{
+	margin-top:3%;
+	display:none;
+}
 
+.geo1 img{
+	height:200px;
+}
 
+.peopleg{
+	cursor: pointer;
+	text-decoration: underline;
+	background-color: white;
+}
+
+.peopleg1{
+	margin-top:3%;
+	display:none;
+}
+
+.peopleg1 img{
+	height:200px;
+}
+
+/**counter**/
+
+#fleftCount{
+}
+
+.numbers{
+	margin:0 auto;
+	font-size: 5rem;
+	font-family: 'Archivo Narrow' sans-serif;
+    font-weight: 700;
+    top:10%;
+    left:0;
+    float: left;
+    margin-right: 5%;
+
+}
 
 
 /** INVERT SCROLL **/

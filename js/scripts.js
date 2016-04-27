@@ -22,10 +22,43 @@ $(document).ready(function(){
     	$(".s1").toggle();
     });
 
+     $(".geogif").click(function(){
+        $(".geo1").toggle();
+    });
+
+
+
 //howto toggle
 $(".howto").click(function(){
         $(".panelCon").toggle();
     });
+
+// COUNTERS
+
+//fashion
+$(document).ready(function() {
+
+        $("#fashionLeft").click(function(){
+            var counter = parseInt($("#fashionL").val());
+            counter++;
+            $("#fashionL").val(counter);
+            $("#fleftCount").text(counter);
+        });
+
+});
+
+$(document).ready(function() {
+
+        $("#fashionRight").click(function(){
+            var counter = parseInt($("#fashionR").val());
+            counter++;
+            $("#fashionR").val(counter);
+            $("#frightCount").text(counter);
+        });
+
+});
+
+//end fashion counter
 	
 	
 /********** SLIDER STUFF **********/
@@ -111,8 +144,6 @@ window.addEventListener('resize', function (event) {
 $(window).on('scroll',function(){
     $(".bg").css('bottom',$(window).scrollTop()*-1);
 });
-
-
 
 
 

@@ -246,7 +246,7 @@
 
 			<div class="slider_nav"></div>
 				<a class="slide_left">
-					LEFT
+					LEFT 
 				</a>
 				<a class="slide_right">
 					RIGHT
@@ -358,18 +358,25 @@
 
 			<div class="slider_nav"></div>
 				<a class="slide_left">
-					LEFT
+				
+				    <button id="fashionLeft">LEFT</button>
+				    <input type="hidden" id="fashionL" value="0">
+
 				</a>
 				<a class="slide_right">
-					RIGHT
+					<button id="fashionRight">RIGHT</button>
+				    <input type="hidden" id="fashionR" value="0">
 				</a>
 			</div>	
 
 
 		<p class="fg">...</p>
-		<div class="fg1">
-		<img src="img/gif/fashion.gif">
-		</div>
+			<div class="fg1">
+				<img src="img/gif/fashion.gif">
+
+				<div id="fleftCount" class="numbers"></div>
+				<div id="frightCount" class="numbers"></div>
+			</div>
 
 		</div>
 
@@ -474,6 +481,8 @@
 		<img src="img/gif/space.gif">
 		</div>
 
+		<div id="output">0</div>
+
 		</div>
 
 
@@ -543,6 +552,14 @@
 					RIGHT
 				</a>
 			</div>	
+
+			<p class="geogif">...</p>
+			<div class="geo1">
+			<img src="img/gif/geo.gif">
+			</div>
+
+			<div id="output">0</div>
+
 		</div>
 
 </div><!--end wrapper 2-->
