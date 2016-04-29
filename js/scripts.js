@@ -46,6 +46,22 @@ $(document).ready(function(){
         $(".machineryg1").toggle();
     });
 
+    $(".lightg").click(function(){
+        $(".lightg1").toggle();
+    });
+
+    $(".natureg").click(function(){
+        $(".natureg1").toggle();
+    });
+
+   $(".sportg").click(function(){
+        $(".sportg1").toggle();
+    });
+
+    $(".surfingg").click(function(){
+        $(".surfingg1").toggle();
+    });
+
 
 
 
@@ -58,7 +74,7 @@ $(".howto").click(function(){
 // COUNTERS
 
 //fashion
-var counter1;
+var counter2;
 $(document).ready(function() {
 
         $("#gdLeft, #gdRight").click(function(){
@@ -80,6 +96,153 @@ $(document).ready(function() {
             counter2++;
             $("#fashionL").val(counter2);
             $("#fCount").text(counter2);
+        });
+
+});
+
+var counter2;
+$(document).ready(function() {
+
+        $("#spaceLeft, #spaceRight").click(function(){
+            counter2 = parseInt($("#spaceL").val());
+            counter2++;
+            $("#spaceL").val(counter2);
+            $("#spaceCount").text(counter2);
+        });
+
+});
+
+var counter2;
+$(document).ready(function() {
+
+        $("#geometryLeft, #geometryRight").click(function(){
+            counter2 = parseInt($("#geometryL").val());
+            counter2++;
+            $("#geometryL").val(counter2);
+            $("#geometryCount").text(counter2);
+        });
+
+});
+
+var counter2;
+$(document).ready(function() {
+
+        $("#greenLeft, #greenRight").click(function(){
+            counter2 = parseInt($("#greenL").val());
+            counter2++;
+            $("#greenL").val(counter2);
+            $("#greenCount").text(counter2);
+        });
+
+});
+
+
+var counter2;
+$(document).ready(function() {
+
+        $("#orangeLeft, #orangeRight").click(function(){
+            counter2 = parseInt($("#orangeL").val());
+            counter2++;
+            $("#orangeL").val(counter2);
+            $("#orangeCount").text(counter2);
+        });
+
+});
+
+var counter2;
+$(document).ready(function() {
+
+        $("#feelLeft, #feelRight").click(function(){
+            counter2 = parseInt($("#feelL").val());
+            counter2++;
+            $("#feelL").val(counter2);
+            $("#feelCount").text(counter2);
+        });
+
+});
+
+
+var counter2;
+$(document).ready(function() {
+
+        $("#formLeft, #formRight").click(function(){
+            counter2 = parseInt($("#formL").val());
+            counter2++;
+            $("#formL").val(counter2);
+            $("#formCount").text(counter2);
+        });
+
+});
+
+
+var counter2;
+$(document).ready(function() {
+
+        $("#machineryLeft, #machineryRight").click(function(){
+            counter2 = parseInt($("#machineryL").val());
+            counter2++;
+            $("#machineryL").val(counter2);
+            $("#machineryCount").text(counter2);
+        });
+
+});
+
+var counter2;
+$(document).ready(function() {
+
+        $("#peopleLeft, #peopleRight").click(function(){
+            counter2 = parseInt($("#peopleL").val());
+            counter2++;
+            $("#peopleL").val(counter2);
+            $("#peopleCount").text(counter2);
+        });
+
+});
+
+var counter2;
+$(document).ready(function() {
+
+        $("#lightLeft, #lightRight").click(function(){
+            counter2 = parseInt($("#lightL").val());
+            counter2++;
+            $("#lightL").val(counter2);
+            $("#lightCount").text(counter2);
+        });
+
+});
+
+var counter2;
+$(document).ready(function() {
+
+        $("#natureLeft, #natureRight").click(function(){
+            counter2 = parseInt($("#natureL").val());
+            counter2++;
+            $("#natureL").val(counter2);
+            $("#natureCount").text(counter2);
+        });
+
+});
+
+var counter2;
+$(document).ready(function() {
+
+        $("#sportLeft, #sportRight").click(function(){
+            counter2 = parseInt($("#sportL").val());
+            counter2++;
+            $("#sportL").val(counter2);
+            $("#sportCount").text(counter2);
+        });
+
+});
+
+var counter2;
+$(document).ready(function() {
+
+        $("#surfingLeft, #surfingRight").click(function(){
+            counter2 = parseInt($("#surfingL").val());
+            counter2++;
+            $("#surfingL").val(counter2);
+            $("#surfingCount").text(counter2);
         });
 
 });

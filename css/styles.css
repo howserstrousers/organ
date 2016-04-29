@@ -301,6 +301,58 @@ p:hover{
 	height:200px;
 }
 
+.lightg{
+
+}
+
+.lightg1{
+	margin-top:3%;
+	display:none;
+}
+
+.lightg1 img{
+	height:200px;
+}
+
+.natureg{
+
+}
+
+.natureg1{
+	margin-top:3%;
+	display:none;
+}
+
+.natureg1 img{
+	height:200px;
+}
+
+.sportg{
+
+}
+
+.sportg1{
+	margin-top:3%;
+	display:none;
+}
+
+.sportg1 img{
+	height:200px;
+}
+
+.surfingg{
+
+}
+
+.surfingg1{
+	margin-top:3%;
+	display:none;
+}
+
+.surfingg1 img{
+	height:200px;
+}
+
 /**counter**/
 
 #fleftCount{
@@ -312,9 +364,7 @@ p:hover{
 	font-family: 'Archivo Narrow' sans-serif;
     font-weight: 700;
     top:10%;
-    left:0;
-    float: left;
-    margin-right: 5%;
+    opacity: .7;
 
 }
 
