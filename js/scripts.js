@@ -26,6 +26,28 @@ $(document).ready(function(){
         $(".geo1").toggle();
     });
 
+    $(".formg").click(function(){
+        $(".formg1").toggle();
+    });
+
+    $(".feelg").click(function(){
+        $(".feelg1").toggle();
+    });
+
+    $(".greeng").click(function(){
+        $(".greeng1").toggle();
+    });
+
+    $(".redg").click(function(){
+        $(".redg1").toggle();
+    });
+
+    $(".machineryg").click(function(){
+        $(".machineryg1").toggle();
+    });
+
+
+
 
 
 //howto toggle
@@ -36,27 +58,33 @@ $(".howto").click(function(){
 // COUNTERS
 
 //fashion
+var counter1;
 $(document).ready(function() {
 
-        $("#fashionLeft").click(function(){
-            var counter = parseInt($("#fashionL").val());
-            counter++;
-            $("#fashionL").val(counter);
-            $("#fleftCount").text(counter);
+        $("#gdLeft, #gdRight").click(function(){
+            counter2 = parseInt($("#gdL").val());
+            counter2++;
+            $("#gdL").val(counter2);
+            $("#gdCount").text(counter2);
         });
 
 });
 
+
+
+var counter2;
 $(document).ready(function() {
 
-        $("#fashionRight").click(function(){
-            var counter = parseInt($("#fashionR").val());
-            counter++;
-            $("#fashionR").val(counter);
-            $("#frightCount").text(counter);
+        $("#fashionLeft, #fashionRight").click(function(){
+            counter2 = parseInt($("#fashionL").val());
+            counter2++;
+            $("#fashionL").val(counter2);
+            $("#fCount").text(counter2);
         });
 
 });
+
+
 
 //end fashion counter
 	
@@ -142,7 +170,7 @@ window.addEventListener('resize', function (event) {
 });
 
 $(window).on('scroll',function(){
-    $(".bg").css('bottom',$(window).scrollTop()*-1);
+    $(".bg").css('bottom',$(window).scrollTop()*-1.1);
 });
 
 

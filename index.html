@@ -35,7 +35,7 @@
 
 
 <!--TEXT-->
-<p class="howto">HOW / TO</p>
+<p class="howto" id="topper">HOW / TO</p>
 
 <div class="panelCon"> 
   
@@ -73,9 +73,11 @@
 <div class="wrapper">
 
 	<div class="bg"> 
-<!--
+		<div id="x" class="back">
+			<h1>8</h1>
+	    </div>
 		<div id="ss" class="back">
-	        <h1>8</h1>
+	        <h1>7</h1>
 	    </div>
 		<div id="ln" class="back">
 	        <h1>6</h1>
@@ -83,13 +85,13 @@
 	    <div id="gf" class="back">
 	        <h1>5</h1>
 	    </div>
+
 	    <div id="sg"class="back">
 	        <h1>4</h1>
 	    </div>
 	    <div id="gr"class="back">
 	        <h1>3</h1>
 	    </div>
--->
 	    <div id="ff" class="back">
 	        <h1>2</h1>
 	    </div>
@@ -246,19 +248,25 @@
 
 			<div class="slider_nav"></div>
 				<a class="slide_left">
-					LEFT 
+					<button id="gdLeft">LEFT</button>
+				    <input type="hidden" id="gdL" value="0"> 
 				</a>
 				<a class="slide_right">
-					RIGHT
+					<button id="gdRight">RIGHT</button>
+				    <input type="hidden" id="fashionR" value="0">
 				</a>
 			</div>	
 
-		<p class="gdg">...</p>
+		<p class="gdg" id="gifb">...</p>
 		<div class="gd1">
 		<img src="img/gif/gd.gif">
+		<div id="gdCount" class="numbers"></div>
 		</div>
 
 	</div>
+
+
+
 
 
 <!--fashion-->
@@ -370,19 +378,16 @@
 			</div>	
 
 
-		<p class="fg">...</p>
+		<p class="fg" id="gifb">...</p>
 			<div class="fg1">
 				<img src="img/gif/fashion.gif">
 
-				<div id="fleftCount" class="numbers"></div>
-				<div id="frightCount" class="numbers"></div>
+				<div id="fCount" class="numbers"></div>
+				<!-- <div id="frightCount" class="numbers"></div> -->
 			</div>
 
 		</div>
 
-</div> <!--end of wrapper 1-->
-
-<div class="wrapper2">
 <!--space-->
 		<div class="container" id="slider5">
 
@@ -476,14 +481,12 @@
 				</a>
 			</div>	
 
-			<p class="spg">...</p>
+			<p class="spg" id="gifb">...</p>
 		<div class="s1">
 		<img src="img/gif/space.gif">
 		</div>
 
-		<div id="output">0</div>
-
-		</div>
+	</div>
 
 
 <!--geometry-->
@@ -553,18 +556,15 @@
 				</a>
 			</div>	
 
-			<p class="geogif">...</p>
+			<p class="geogif" id="gifb">...</p>
 			<div class="geo1">
 			<img src="img/gif/geo.gif">
 			</div>
 
-			<div id="output">0</div>
 
 		</div>
 
-</div><!--end wrapper 2-->
 
-<div class="wrapper3">
 <!--green-->
 		<div class="container" id="slider5">
 
@@ -597,9 +597,7 @@
 						<div class="slide">
 							<img src="img/green/g_07.jpg">
 						</div>
-						<div class="slide">
-							<img src="img/green/g_08.jpg">
-						</div>
+
 						<div class="slide">
 							<img src="img/green/g_09.jpg">
 						</div>
@@ -619,6 +617,11 @@
 					RIGHT
 				</a>
 			</div>	
+
+			<p class="greeng" id="gifb">...</p>
+			<div class="greeng1">
+			<img src="img/gif/green.gif">
+			</div>
 		</div>
 
 
@@ -680,11 +683,14 @@
 				<a class="slide_right">
 					RIGHT
 				</a>
-			</div>	
-		</div>
-</div><!--end wrapper 3-->
+			</div>
 
-<div class="wrapper4">
+			<p class="redg" id="gifb">...</p>
+			<div class="redg1">
+			<img src="img/gif/red.gif">
+			</div>
+
+		</div>
 
 <!--FEEL-->
 <div class="container" id="slider5">
@@ -758,6 +764,11 @@
 					RIGHT
 				</a>
 			</div>	
+
+			<p class="feelg">...</p>
+		<div class="feelg1">
+			<img src="img/gif/feel.gif">
+		</div>
 </div>
 
 
@@ -839,7 +850,12 @@
 				<a class="slide_right">
 					RIGHT
 				</a>
-			</div>	
+			</div>
+
+			<p class="formg">...</p>
+		<div class="formg1">
+			<img src="img/gif/form.gif">
+		</div>	
 </div>
 
 <!--form-->
@@ -983,7 +999,13 @@
 				<a class="slide_right">
 					RIGHT
 				</a>
-			</div>	
+			</div>
+
+			<p class="machineryg" id="gifb">...</p>
+			<div class="machineryg1">
+			<img src="img/gif/machinery.gif">
+			</div>
+
 		</div>
 
 <!--machinery-->
@@ -1434,7 +1456,7 @@
 <!------------------- END OF SLIDERS ------------>
 
 <!--build-->
-<p class="bon">SCRAPS</p>
+<p class="bon" id="topper">SCRAPS</p>
 
 <div class="build"> 
   
