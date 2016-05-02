@@ -78,7 +78,7 @@ a:hover{
 	margin-top: .5%;
 	padding:.2%;
 	font-family: 'Archivo Narrow' sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
     font-size: .9rem;
     cursor: pointer;
@@ -171,6 +171,14 @@ p:hover{
     font-style: italic;
     text-decoration: underline;
     cursor: pointer;
+    letter-spacing: .2rem;
+}
+
+#gifb:hover{
+	font-family: 'Archivo Narrow' sans-serif;
+    font-weight: 400;
+    color:rgba(225,57,0,.8);
+    font-style: normal;
 }
 
 .gdg{
@@ -391,7 +399,7 @@ p:hover{
     left:0;
     width: 100%;
     height:auto;
-    z-index:-100;
+    z-index:100;
     pointer-events:none;
 }
 .panel {
@@ -523,7 +531,7 @@ button {
     font-size: 1.3rem;
     border: none;
     margin-bottom: 2%;
-    letter-spacing: .7rem;
+    letter-spacing: .5rem;
     text-align: center;
     background-color:rgba(225,57,0,0);
 }
