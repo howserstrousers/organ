@@ -73,7 +73,7 @@ a:hover{
 /***BUTTON STYLES**/
 #topper {
 	width:auto;
-	color:rgba(225,57,0,.9);
+	color:rgba(200, 40, 0,.9);
 	background-color: rgba(43, 59, 43, .4); /*******GREEEEENNN!!!***/
 	margin-top: .5%;
 	padding:.2%;
@@ -164,7 +164,7 @@ p:hover{
 
 /** buttons/gif **/
 #gifb{
-	color: rgba(23, 33, 23, .8);
+	color: rgba(12,18,12, .7);
 	margin-top: 3%;
 	font-family: 'Archivo Narrow' sans-serif;
     font-weight: 400;
@@ -177,7 +177,7 @@ p:hover{
 #gifb:hover{
 	font-family: 'Archivo Narrow' sans-serif;
     font-weight: 400;
-    color:rgba(225,57,0,.8);
+    color:rgba(200, 40, 0,.9);
     font-style: normal;
 }
 
@@ -419,7 +419,7 @@ p:hover{
     font-weight: 700;
     font-style: italic;
 	opacity:.5;
-	color: rgba(23, 33, 23, .8);
+	color: rgba(12,18,12, .7);
     
 }
 
@@ -478,44 +478,44 @@ p:hover{
 
 #mp {
 	background-color: white;
-	color:rgba(225,57,0,.8);
+	color:rgba(200, 40, 0,.9);
 
 }
 
 #ff {
-	background-color: rgba(23, 33, 23, .8);
-	color:rgba(225,57,0,.8);
+	background-color: rgba(12,18,12, .7);
+	color:rgba(200, 40, 0,.9);
 }
 
 #gr {
     background-color: white;
-	color:rgba(225,57,0,.8);
+	color:rgba(200, 40, 0,.9);
 }
 
 #sg {
-    background-color:rgba(225,57,0,.8);
+    background-color:rgba(200, 40, 0,.9);
     color: white
 
 }
 
 #gf {
-    background-color:rgba(225,57,0,.8);
+    background-color:rgba(200, 40, 0,.9);
     color: white
 }
 
 #ln {
-    background-color: rgba(23, 33, 23, .8);
-	color:rgba(225,57,0,.8);
+    background-color: rgba(12,18,12, .7);
+	color:rgba(200, 40, 0,.9);
 }
 
 #ss {
-    background-color:rgba(225,57,0,.8);
+    background-color:rgba(200, 40, 0,.9);
 	color: white
 }
 
 #x {
 	background-color: white;
-	color:rgba(225,57,0,.8);
+	color:rgba(200, 40, 0,.9);
 
 }
 
@@ -525,7 +525,7 @@ p:hover{
 /** RIGHT LEFT BUTTONS**/
 
 button {
-	color:rgba(225,57,0,.9);
+	color:rgba(200, 40, 0,.9);
 	font-family: 'Archivo Narrow' sans-serif;
     font-weight: 700;
     font-size: 1.3rem;
@@ -533,11 +533,11 @@ button {
     margin-bottom: 2%;
     letter-spacing: .5rem;
     text-align: center;
-    background-color:rgba(225,57,0,0);
+    background-color:rgba(200, 40, 0, .0);
 }
 
 button:hover{
-	color: rgba(23, 33, 23, .8);
+	color: rgba(12,18,12, .7);
 	font-style: italic;
 }
 
