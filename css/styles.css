@@ -188,6 +188,7 @@ p:hover{
 .gd1{
 	margin-top:3%;
 	display:none;
+	height:220px;
 }
 
 .gd1 img{
@@ -201,7 +202,6 @@ p:hover{
 .fg1{
 	margin-top:3%;
 	display:none;
-	width:auto;
 	height:220px;
 
 }
@@ -374,11 +374,16 @@ p:hover{
 
 .numbers{
 	margin:0 auto;
-	font-size: 5rem;
+	font-size: 6.5rem;
 	font-family: 'Archivo Narrow' sans-serif;
     font-weight: 700;
-    top:10%;
+    margin-top:8%;
     opacity: .7;
+    float:right;
+    display: inline-block;
+    text-align: center;
+
+    width: 50%;
 
 }
 
@@ -438,7 +443,7 @@ p:hover{
     height:auto;
     pointer-events:none;
     margin-left: .5%;
-    display: none;
+    display: ;
     z-index: -100
 }
 
